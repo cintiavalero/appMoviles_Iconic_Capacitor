@@ -1,0 +1,7 @@
+{
+  "name": "iconicApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
