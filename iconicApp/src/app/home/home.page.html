@@ -47,7 +47,7 @@
                 <ion-toolbar>
                   <ion-title>Personaje {{ personajeSeleccionado?.id }}</ion-title>
                   <ion-buttons slot="end">
-                    <ion-button (click)="setOpen(false)">Close</ion-button>
+                    <ion-button (click)="setOpen(false)">Cerrar</ion-button>
                   </ion-buttons>
                 </ion-toolbar>
               </ion-header>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="contenedor-info">
                   <h3>Procedencia</h3>
-                  <p>Locacion: {{ personajeSeleccionado?.location.name }}</p>
+                  <p>Locación: {{ personajeSeleccionado?.location.name }}</p>
                   <p>Origen: {{ personajeSeleccionado?.origin.name }}</p>
                 </div>
               </ion-content>
