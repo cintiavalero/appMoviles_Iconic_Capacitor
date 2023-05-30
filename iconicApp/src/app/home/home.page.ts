@@ -90,11 +90,4 @@ export class HomePage implements OnInit {
     console.log('Personajes almacenados en las preferencias:', this.personajes);
   }
 
-  async toastError(message: string) {
-    await Toast.show({
-      text: message,
-      duration: 'long'
-    });
-  }
-
 }
